@@ -6,5 +6,6 @@
 `cd JourneyApp`
 3. Make the journeyapp file executable
 `chmod +x journeyapp`
+4. Run `composer dump-autoload`
 4. Run it
 `./journeyapp`
