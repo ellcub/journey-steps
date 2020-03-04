@@ -3,19 +3,22 @@
 ## Requirements
 PHP 7.4 is assumed
 
+## Assumptions
+The input json file is stored within the project, in `/data/journeysteps.json`.  
+An improvement could be to accept a file as an argument.  In a web application this could be handled via a route.
+
 ## Instructions
 
 ### Setup
 1. Copy or clone to a folder
-2. On the command line navigate to the folder, eg
 ```bash
-cd JourneyApp
+git clone git@github.com:ellcub/journey-steps.git
 ```
-3. Make the journeyapp file executable
+2. Navigate to the folder, eg
 ```bash
-chmod +x journeyapp
+cd journey-steps
 ```
-4. Install dependencies and set up autoloading
+3. Install dependencies (PHPUnit) and set up autoloading
  ```bash
  composer install
 ```
@@ -25,6 +28,7 @@ From the project folder and run
 ```bash
 ./journeyapp
 ```
+The app takes the input file and prints an ordered list of the journey steps.
 
 ### Running the tests
 From the project folder and run
