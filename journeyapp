@@ -10,5 +10,6 @@ require __DIR__ . '/vendor/autoload.php';
 use App\JourneySteps;
 
 $js = new JourneySteps();
-
-print_r($js->readJourneySteps('./data/journeysteps.json'));
+$js->readJourneySteps('./data/journeysteps.json');
+$orderedJourney = $js->orderJourneySteps();
+print_r($orderedJourney);
