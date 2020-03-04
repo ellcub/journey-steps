@@ -1,7 +1,8 @@
 # Journey App
 
 ## Requirements
-PHP 7.4 is assumed
+- PHP 7.4 is assumed
+- [composer](https://getcomposer.org/) should be installed
 
 ## Assumptions
 The input json file is stored within the project, in `/data/journeysteps.json`.  
