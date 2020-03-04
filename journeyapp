@@ -2,9 +2,13 @@
 <?php
 
 if (php_sapi_name() !== 'cli') {
-	exit;
+    exit;
 }
 
 require __DIR__ . '/vendor/autoload.php';
 
-echo "Hello World\n";
+use App\JourneySteps;
+
+$js = new JourneySteps();
+
+print_r($js->readJourneySteps('./data/journeysteps.json'));
