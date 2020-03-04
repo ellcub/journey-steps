@@ -24,14 +24,14 @@ cd journey-steps
 ```
 
 ### Run the app
-From the project folder and run 
+From the project folder run 
 ```bash
 ./journeyapp
 ```
 The app takes the input file and prints an ordered list of the journey steps.
 
 ### Running the tests
-From the project folder and run
+From the project folder run
  ```bash
  ./vendor/bin/phpunit tests
 ```
